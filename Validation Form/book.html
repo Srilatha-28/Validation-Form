@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Entry Form</title>
+        <link rel="stylesheet" href="book.css">
+        <script src="validation.js"></script>
+    </head>
+    <body>
+        <header>Book Entry Form</header>
+        <form action="#" method="get">         
+        <table>
+            <tr>
+                <td><label for="isbnId">ISBN number:</label></td>
+                <td><input type="text" name="isbn" id="isbnId"/></td>
+                <td><label id="isbnMsg"></label></td>
+            </tr>
+            <tr>
+                <td><label for="booktitleId">Book Title</label></td>
+                <td><input type="text" name="booktitle" id="booktitleId"/></td>
+                <td><label id="booktitleMsg"></label></td>
+            </tr>
+            <tr>
+                <td><label for="bookId">Book List</label></td> 
+                <td>
+                    <select name="Technical Books" id="bookid">
+                <option value="spring">Spring</option>
+                <option value="Java">Java</option>
+                <option value="servlets">Servlets</option>
+            </select> 
+            </td>
+            </tr>
+            <tr>
+                <td><label for="priceId">Price</label></td>
+                <td><input type="text" name="price" id="priceId"/></td>
+            </tr>
+            <tr>
+                <td><label for="bookauthorId">Book Author</label></td>
+                <td><input type="text" name="bookauthor" id="bookauthorId"/></td>
+                <td><label id="bookauthorMsg"></label></td>
+            </tr>
+            <tr>
+                <td label for="publishId">Book Publish Date</td>
+                <td><input type="text" name="bookpublish" id="publishId"/></td>
+                <td><label id="publishMsg"></label></td>
+            </tr>
+            <tr id="submitId">
+                <td><input type="submit" value="click here to submit" onclick="return CheckValidateOfBook()"/></td>
+            </tr>
+        </table>
+    </form>
+    <footer>
+        book list @copyrights 2007 hcl technologies
+    </footer>
+    </body>
+</html>

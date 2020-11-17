@@ -1,0 +1,35 @@
+header{
+    color: blue;
+    width:auto;
+    height:30px;
+    text-align: center;
+    background-color: cornsilk;
+}
+tr:hover{
+    color: black;
+}
+input:hover{
+    background-color: mintcream;
+}
+select:hover{
+    background-color: lightyellow;
+}
+input,select{
+    width:200px;
+    padding: 5px;
+}
+tr:nth-child(even){
+       background-color: lavender;
+}
+input[type="submit"]:hover{
+    background-color: darksalmon;
+    color:green;
+    text-align: center;
+}
+footer{
+    width:auto;
+    height:30px;
+    color:blue;
+    text-align: center;
+    background-color: cornsilk;
+}
